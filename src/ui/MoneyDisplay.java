@@ -10,13 +10,13 @@ package ui;
  * @author usuario
  */
 public class MoneyDisplay {
-    private final int money;
+    private final double money;
 
     public int getMoney() {
         return money;
     }
 
-    public MoneyDisplay(int money) {
+    public MoneyDisplay(double money) {
         this.money = money;
     }
 }

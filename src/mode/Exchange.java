@@ -10,7 +10,7 @@ package mode;
  * @author usuario
  */
 public class Exchange {
-    private final int money;
+    private final double money;
     private final Currency currency;
 
     public int getMoney() {
@@ -21,7 +21,7 @@ public class Exchange {
         return currency;
     }
 
-    public Exchange(int money, Currency currency) {
+    public Exchange(double money, Currency currency) {
         this.money = money;
         this.currency = currency;
     }

@@ -12,9 +12,9 @@ package mode;
 public class ExchangeRate {
     private final Currency from;
     private final Currency to;
-    private final int rate;
+    private final double rate;
 
-    public ExchangeRate(Currency from, Currency to, int rate) {
+    public ExchangeRate(Currency from, Currency to, double rate) {
         this.from = from;
         this.to = to;
         this.rate = rate;
