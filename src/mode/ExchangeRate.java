@@ -9,4 +9,16 @@ public class ExchangeRate {
         this.to = to;
         this.rate = rate;
     }
+
+    public Currency getFrom() {
+        return from;
+    }
+
+    public Currency getTo() {
+        return to;
+    }
+
+    public double getRate() {
+        return rate;
+    }
 }
