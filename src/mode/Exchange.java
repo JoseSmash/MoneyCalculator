@@ -13,7 +13,7 @@ public class Exchange {
     private final double money;
     private final Currency currency;
 
-    public int getMoney() {
+    public double getMoney() {
         return money;
     }
 

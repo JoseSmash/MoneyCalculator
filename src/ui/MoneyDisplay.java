@@ -12,7 +12,7 @@ package ui;
 public class MoneyDisplay {
     private final double money;
 
-    public int getMoney() {
+    public double getMoney() {
         return money;
     }
 
