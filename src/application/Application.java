@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package view;
+package application;
 
 /**
  *
  * @author usuario
  */
-public class Exchanger {
-    private Currency exchange(Currency money, Currency exchangeRate);
+public class Application {
+    
 }
